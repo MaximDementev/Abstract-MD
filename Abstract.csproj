@@ -41,11 +41,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AttributeHandlers\EnumExtention.cs" />
+    <Compile Include="Converters\BoolTypeConverter.cs" />
+    <Compile Include="Converters\EnumDescriptionTypeConverter.cs" />
     <Compile Include="OpenWindowOnlyOnTopOfParent\OpenWindowOnlyOnTopOfParent.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Revit\Templates\ApplicationTemplate.cs" />
+    <Compile Include="Revit\Templates\CommandTemplate.cs" />
+    <Compile Include="Revit\Templates\CommandHandlerTemplate.cs" />
+    <Compile Include="Revit\RevitFamilyHandlers\FamilySymbolParameterHandler.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="README.md" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
