@@ -3,7 +3,9 @@
 # Шаблон команды
 
 Все новые модули рекомендуется начинать так, чтобы точка входа являлась командой, поскольку
+
 ✨ созданные кнопки ссылаются на команды
+
 ✨ другие модули будут запускать текущий модуль через команду
 
 В шаблоне сохранен код для открытия окна поверх родительского
@@ -23,6 +25,6 @@
 
 <p align="center">
   <a href="https://thebuildingcoder.typepad.com/blog/2012/11/drive-revit-through-a-wcf-service.html" target="_blank" rel="noopener noreferrer">
-    <img width="200" src="https://github.com/MaximDementev/Abstract-MD/blob/master/Revit/Templates/images/EventHandler_SCHEMA.png" alt="Bootsharp">
+    <img width="800" src="https://github.com/MaximDementev/Abstract-MD/blob/master/Revit/Templates/images/EventHandler_SCHEMA.png" alt="Bootsharp">
   </a>
 </p>

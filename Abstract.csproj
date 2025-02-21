@@ -53,7 +53,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="README.md" />
-    <None Include="Revit\Templates\MarkDown.md" />
+    <None Include="Revit\Templates\README.md" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Revit\Templates\images\" />
