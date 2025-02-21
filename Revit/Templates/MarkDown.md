@@ -1,3 +1,28 @@
-https://thebuildingcoder.typepad.com/blog/2012/11/drive-revit-through-a-wcf-service.html
-//
-![](images\EventHandler_SCHEMA.png)
+﻿
+
+# Шаблон команды
+
+Все новые модули рекомендуется начинать так, чтобы точка входа являлась командой, поскольку
+✨ созданные кнопки ссылаются на команды
+✨ другие модули будут запускать текущий модуль через команду
+
+В шаблоне сохранен код для открытия окна поверх родительского
+Чтобы окна могли запускать транзации, необходимо эти транзакции выполнять в рамках отдельной команды - EventHandler. 
+Экземпляр создается и инициализируется в точке входа, передается в форму и потом форма уже запускает этот обработчик событий.
+
+Все ошибки должны быть перехвачены в точке входа
+
+## Шаблон приложения
+
+1. Application запускает команду, создает кнопку на панели Revit. 
+2. В шаблоне расположение папки с иконками берется через местоположение текущей сборки
+3. Вместо COMMANDNAME нужно написать название выполняемой команды
+
+
+## Шаблон обработчика событий
+
+<p align="center">
+  <a href="https://thebuildingcoder.typepad.com/blog/2012/11/drive-revit-through-a-wcf-service.html" target="_blank" rel="noopener noreferrer">
+    <img width="200" src="https://github.com/MaximDementev/Abstract-MD/blob/master/Revit/Templates/images/EventHandler_SCHEMA.png" alt="Bootsharp">
+  </a>
+</p>
