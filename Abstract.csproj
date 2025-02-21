@@ -53,7 +53,10 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="README.md" />
+    <None Include="Revit\Templates\MarkDown.md" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Revit\Templates\images\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
