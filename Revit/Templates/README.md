@@ -22,8 +22,6 @@
 
 
 ## Шаблон обработчика событий
-![image](https://github.com/user-attachments/assets/131a91cd-2b55-439f-8541-11d35dea7c79)
-
 
 <p align="center">
   <a href="https://thebuildingcoder.typepad.com/blog/2012/11/drive-revit-through-a-wcf-service.html" target="_blank" rel="noopener noreferrer">
