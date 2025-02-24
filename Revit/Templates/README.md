@@ -25,6 +25,6 @@
 
 <p align="center">
   <a href="https://thebuildingcoder.typepad.com/blog/2012/11/drive-revit-through-a-wcf-service.html" target="_blank" rel="noopener noreferrer">
-    <img width="800" src="https://thebuildingcoder.typepad.com/.a/6a00e553e168978833017d3d2b59d7970c-800wi" alt="Bootsharp">
+    <img width="800" src="[https://thebuildingcoder.typepad.com/.a/6a00e553e168978833017d3d2b59d7970c-800wi](https://github.com/MaximDementev/Abstract-MD/blob/master/Revit/Templates/images/EventHandler_SCHEMA.png)" alt="Bootsharp">
   </a>
 </p>
